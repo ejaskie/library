@@ -20,7 +20,7 @@ const projects = [
   },
   {
     id: 'temail', // Ditaruh nomor 3 agar pas dengan pola bento box
-    title: 'TEMAIL',
+    title: 'SEMAIL',
     description: 'Temporary Email. Kotak masuk sementara alias disposable email. Solusi cepat menghindari spam saat daftar akun.', //[cite: 4]
     url: 'https://semail.vercel.app',
     // Ikon Mail Shield (SVG)
