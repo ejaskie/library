@@ -4,7 +4,7 @@ import './style.css'
 const projects = [
   {
     id: 'rembag',
-    title: 'REMBAG',
+    title: 'Remove Background',
     description: 'Background Remover & Pas Foto. Bukan sekadar hapus latar. Didukung AI ClipDrop & fitur editor pas foto formal otomatis.', //[cite: 1]
     url: 'https://rembag.vercel.app',
     // Ikon Gunting / Potong (SVG)
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: 'konver',
-    title: 'KONVER',
+    title: 'Konversi Format',
     description: 'Konversi format Gambar dan Dokumen. Swiss-army knife untuk file Anda. Ubah format gambar secara lokal atau dokumen via Cloud API.', //[cite: 2]
     url: 'https://konver.vercel.app',
     // Ikon File Konversi (SVG)
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     id: 'temail', // Ditaruh nomor 3 agar pas dengan pola bento box
-    title: 'SEMAIL',
+    title: 'Email Sementara',
     description: 'Temporary Email. Kotak masuk sementara alias disposable email. Solusi cepat menghindari spam saat daftar akun.', //[cite: 4]
     url: 'https://semail.vercel.app',
     // Ikon Mail Shield (SVG)
@@ -28,18 +28,34 @@ const projects = [
   },
   {
     id: 'dowti',
-    title: 'DOWTI',
+    title: 'Download VTiktok',
     description: 'Tiktok Video Downloader. Bypass client-side untuk unduh video TikTok bebas watermark. Cepat, murni, tanpa limitasi harian.', //[cite: 3]
     url: 'https://dowti.vercel.app',
     // Ikon Download (SVG)
     svg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>`
+  },
+  {
+    id: 'kombar',
+    title: 'Kompresi Gambar',
+    description: 'Kompres Ukuran Gambar. Ubah ukuran gambarmu menjadi lebih kecil secara cepat, murni, tanpa limitasi harian.', //
+    url: 'https://kombar.vercel.app',
+    // Ikon Minimize / Compress (SVG)
+    svg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3a2 2 0 0 1-2 2H3"></path><path d="M21 8h-3a2 2 0 0 1-2-2V3"></path><path d="M3 16h3a2 2 0 0 1 2 2v3"></path><path d="M16 21v-3a2 2 0 0 1 2-2h3"></path></svg>`
+  },
+  {
+    id: 'cvkita',
+    title: 'Pembuat CV',
+    description: 'Pembuat CV Praktis. Tersedia ATS dan Design, buat dengan cepat, murni, tanpa limitasi harian.', //
+    url: 'https://cvkita.vercel.app',
+    // Ikon File / User Resume (SVG)
+    svg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><circle cx="12" cy="13" r="2"></circle><path d="M8 19c0-2.2 2-4 4-4s4 1.8 4 4"></path></svg>`
   }
 ];
 
 // Fungsi render dengan staggered animation
 function renderProjects() {
   const grid = document.getElementById('project-grid');
-  
+
   const htmlContent = projects.map((project, index) => `
     <a href="${project.url}" target="_blank" rel="noopener noreferrer" class="card card-enter" style="animation-delay: ${index * 0.15}s">
       <div class="card-content">
