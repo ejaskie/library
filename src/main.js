@@ -37,7 +37,7 @@ const projects = [
   {
     id: 'kombar',
     title: 'Kompresi Gambar',
-    description: 'Kompres Ukuran Gambar. Ubah ukuran gambarmu menjadi lebih kecil secara cepat, murni, tanpa limitasi harian.', //
+    description: 'Kompres Ukuran Gambar. Ubah ukuran gambarmu menjadi lebih kecil secara cepat, tanpa limitasi harian.', //
     url: 'https://kombar.vercel.app',
     // Ikon Minimize / Compress (SVG)
     svg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3a2 2 0 0 1-2 2H3"></path><path d="M21 8h-3a2 2 0 0 1-2-2V3"></path><path d="M3 16h3a2 2 0 0 1 2 2v3"></path><path d="M16 21v-3a2 2 0 0 1 2-2h3"></path></svg>`
@@ -49,6 +49,22 @@ const projects = [
     url: 'https://cvkita.vercel.app',
     // Ikon File / User Resume (SVG)
     svg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><circle cx="12" cy="13" r="2"></circle><path d="M8 19c0-2.2 2-4 4-4s4 1.8 4 4"></path></svg>`
+  },
+  {
+    id: 'mtkai',
+    title: 'AI Matematika',
+    description: 'Matematika AI disertai penjelasan. Selesaikan semua soal Matematika dengan cepat dan mudah.', //
+    url: 'https://mtkai.vercel.app',
+    // Ikon Kalkulator (SVG)
+    svg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>`
+  },
+  {
+    id: 'currency',
+    title: 'Mata Uang',
+    description: 'Kurs Mata Uang. Konversi semua mata uang, emas dan bitcoin secara langsung (update harian/real time khusus bitcoin)', //
+    url: 'https://matauang.vercel.app',
+    // Ikon Koin/Dolar (SVG)
+    svg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path><line x1="12" y1="18" x2="12" y2="6"></line></svg>`
   }
 ];
 
